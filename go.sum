@@ -1,0 +1,12 @@
+github.com/alicebob/gopher-json v0.0.0-20230218143504-906a9b012302 h1:uvdUDbHQHO85qeSydJtItA4T55Pw6BtAejd0APRJOCE=
+github.com/alicebob/gopher-json v0.0.0-20230218143504-906a9b012302/go.mod h1:SGnFV6hVsYE877CKEZ6tDNTjaSXYUk6QqoIK6PrAtcc=
+github.com/alicebob/miniredis v2.5.0+incompatible h1:yBHoLpsyjupjz3NL3MhKMVkR41j82Yjf3KFv7ApYzUI=
+github.com/alicebob/miniredis v2.5.0+incompatible/go.mod h1:8HZjEj4yU0dwhYHky+DxYx+6BMjkBbe5ONFIF1MXffk=
+github.com/gomodule/redigo v1.9.2 h1:HrutZBLhSIU8abiSfW8pj8mPhOyMYjZT/wcA4/L9L9s=
+github.com/gomodule/redigo v1.9.2/go.mod h1:KsU3hiK/Ay8U42qpaJk+kuNa3C+spxapWpM+ywhcgtw=
+github.com/holys/goredis v0.0.0-20170102023504-0190d3dd3e98 h1:ns2kORpNOLTzlb8l37qSuCpLHNQlWrCJRJDW0kqK0+A=
+github.com/holys/goredis v0.0.0-20170102023504-0190d3dd3e98/go.mod h1:+DLp1Rx/ZxAvVgSPQwoUKr5WHebDnON/UhzzPI0Qkpg=
+github.com/peterh/liner v1.0.1-0.20161103180659-3c5f577f62ec h1:n2+FoyfERHqR0J42Rb0fjXSRqkbaF7IxfmWvS2i05LI=
+github.com/peterh/liner v1.0.1-0.20161103180659-3c5f577f62ec/go.mod h1:xIteQHvHuaLYG9IFj6mSxM0fCKrs34IrEQUhOYuGPHc=
+github.com/yuin/gopher-lua v1.1.1 h1:kYKnWBjvbNP4XLT3+bPEwAXJx262OhaHDWDVOPjL46M=
+github.com/yuin/gopher-lua v1.1.1/go.mod h1:GBR0iDaNXjAgGg9zfCvksxSRnQx76gclCIb7kdAd1Pw=
