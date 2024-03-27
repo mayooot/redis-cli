@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path"
+	"redis-cli/commands"
 	"regexp"
 	"strconv"
 	"strings"
@@ -380,9 +381,9 @@ func printHelp(cmds []string) {
 		fmt.Println()
 	} else {
 		cmd := strings.ToUpper(args[0])
-		for i := 0; i < len(helpCommands); i++ {
-			if helpCommands[i][0] == cmd {
-				printCommandHelp(helpCommands[i])
+		for i := 0; i < len(commands.HelpCommands); i++ {
+			if commands.HelpCommands[i][0] == cmd {
+				printCommandHelp(commands.HelpCommands[i])
 			}
 		}
 	}
@@ -435,7 +436,7 @@ func sendPing(client *goredis.Client) error {
 
 func setCompletionHandler() {
 	line.SetCompleter(func(line string) (c []string) {
-		for _, i := range helpCommands {
+		for _, i := range commands.HelpCommands {
 			if strings.HasPrefix(i[0], strings.ToUpper(line)) {
 				c = append(c, i[0])
 			}
